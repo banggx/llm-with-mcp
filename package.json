@@ -7,11 +7,19 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "mcp",
+    "model context protocol",
+    "openai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/banggx/llm-with-mcp"
+  },
   "scripts": {
     "dev": "ts-node example/index.ts",
     "build": "tsc"
   },
-  "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
