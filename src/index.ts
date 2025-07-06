@@ -297,7 +297,7 @@ export class LLMWithMCP {
     return `<tool>
       <header>Calling ${toolName} Tool.</header>
       <code class="tool-args">${toolArgs}</code>
-      <code class="tool-resp">${JSON.stringify(result, null, 2)}</tool-output>
+      <code class="tool-resp">${JSON.stringify(result, null, 2)}</code>
     </tool>`
   }
 
